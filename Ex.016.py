@@ -1,0 +1,7 @@
+print('=====DESAFIO 16=====')
+print('-'*40)
+dia = int(input('Quantos dias alugados:'))
+km = float(input('Quantos km rodados?'))
+total = (dia * 60) + (0.15 * km)
+print('O total a pagar é de R$ {:.2f}'.format(total))
+print('-'*40)
